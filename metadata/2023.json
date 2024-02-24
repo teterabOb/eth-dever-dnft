@@ -1,0 +1,13 @@
+{
+	"name": "SporkΞ - 2023",
+    "description": "For the upcoming 2023 ETHDenver installation, the newest member of Team Bufficorn is SPORKΞ. Global Ambassador, SPORKΞ is a cute, cuddly, and incredibly utilitarian utensil. SPORKΞ is happiest when resting up after a long day of #BUIDLing and reading his favorite book, “B is for Bufficorn; A Rhymsical Journey Through Cryptoland.”", 
+    "external_url": "https://www.ethdenver.com/", 
+    "image": "https://ipfs.io/ipfs/QmTqzm4YFnAg499XFNGZoYZ3gjxrTTvKKhfHSuHDsZhXpY/eth_denver_2023.png",     
+    "attributes": [ 
+		{
+            "trait-type": "Level",
+            "value": "2023"
+        }
+    ] 
+}
+  

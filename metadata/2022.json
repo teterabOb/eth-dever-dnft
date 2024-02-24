@@ -1,0 +1,13 @@
+{
+	"name": "BuffiGWEI - 2022",
+    "description": "At ETHDenver 2022, we paid homage to our roots. BuffiGWEI are the smallest unit of account in the Bufficorn Team. Not to be underestimated by their size, they wield great power in fueling and inspiring Team Bufficorn. Their creativity is second to none and are relentless in their pursuit of learning.", 
+    "external_url": "https://www.ethdenver.com/", 
+    "image": "https://ipfs.io/ipfs/QmTqzm4YFnAg499XFNGZoYZ3gjxrTTvKKhfHSuHDsZhXpY/eth_denver_2022.png",     
+    "attributes": [ 
+		{
+            "trait-type": "Level",
+            "value": "2022"
+        }
+    ] 
+}
+  

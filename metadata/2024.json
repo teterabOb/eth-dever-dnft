@@ -1,0 +1,13 @@
+{
+	"name": "SporkWhale - 2024",
+    "description": "At ETHDenver 2024, we have SporkWhale", 
+    "external_url": "https://www.ethdenver.com/",  
+    "image": "https://ipfs.io/ipfs/QmTqzm4YFnAg499XFNGZoYZ3gjxrTTvKKhfHSuHDsZhXpY/eth_denver_2024.png",     
+    "attributes": [ 
+		{
+            "trait-type": "Level",
+            "value": "2024"
+        }
+    ] 
+}
+  
