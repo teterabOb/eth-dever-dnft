@@ -28,8 +28,7 @@ contract MyDNFT is ERC721, ERC721URIStorage, AutomationCompatibleInterface {
         "https://ipfs.io/ipfs/QmPR51yq3MyN2wmDsTjPNjPq8VwD4EXwqMDCX32GZiBg2m/2024.json"
     ];
 
-    constructor(uint256 _interval)
-        ERC721("ETH Denver Dynamic NFT", "DNFT")
+    constructor(uint256 _interval) ERC721("ETH Denver Dynamic NFT", "DNFT")
     {
         interval = _interval;
         lastTimeStamp = block.timestamp;
@@ -55,15 +54,15 @@ contract MyDNFT is ERC721, ERC721URIStorage, AutomationCompatibleInterface {
     }
 
     function updateYear(uint256 _tokenId) public {
-        uint256 currentEstado = getYearNFT(_tokenId);
+        uint256 currentYear = getYearOfNFT(_tokenId);
 
-        if(currentEstado == 0){
+        if(currentYear == 0){
              nftYears[_tokenId] = Years.Year2023; 
         }
-        else if(currentEstado == 1){
+        else if(currentYear == 1){
              nftYears[_tokenId] = Years.Year2024; 
         }
-        else if(currentEstado == 2){
+        else if(currentYear == 2){
             nftYears[_tokenId] = Years.Year2022;
         }
     }
@@ -76,7 +75,7 @@ contract MyDNFT is ERC721, ERC721URIStorage, AutomationCompatibleInterface {
     }
 
     // helper functions
-    function getYearNFT(uint256 _tokenId) public view returns(uint256){
+    function getYearOfNFT(uint256 _tokenId) public view returns(uint256){
         Years yearIndex = nftYears[_tokenId];
         return uint(yearIndex);
     }
