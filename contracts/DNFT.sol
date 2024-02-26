@@ -19,6 +19,7 @@ contract MyDNFT is ERC721, ERC721URIStorage, AutomationCompatibleInterface {
         Year2024 // Third = 2
     }
 
+    // Year of each NFT
     mapping (uint256 => Years) nftYears;
 
     // Metadata hosted in Pinata
