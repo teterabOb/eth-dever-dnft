@@ -9,8 +9,9 @@ import "@chainlink/contracts/src/v0.8/AutomationCompatible.sol";
 
 contract MyDNFT is ERC721, ERC721URIStorage, AutomationCompatibleInterface {
     uint256 private _nextTokenId;
-
+    // Interval to update the year of the NFT
     uint public interval;
+    // Last timestamp when the year was updated
     uint public lastTimeStamp;
 
     // Year of the NFT 
