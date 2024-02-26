@@ -70,7 +70,7 @@ contract MyDNFT is ERC721, ERC721URIStorage, AutomationCompatibleInterface {
 
     function updateAllNFTs() public {
         uint counter = _nextTokenId;
-        for(uint i = 0; i < counter; i++){
+        for(uint i = 0; i <= counter; i++){
             updateYear(i);
         }
     }
